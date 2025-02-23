@@ -1,0 +1,2 @@
+data/podcast_chroma.db/* filter=lfs diff=lfs merge=lfs -text
+data/podcast_chroma.db/chroma.sqlite3 filter=lfs diff=lfs merge=lfs -text

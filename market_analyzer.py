@@ -16,8 +16,8 @@ st.title("Podcast Competitor Analyzer")
 
 # Load API Keys from Streamlit Secrets
 try:
-    YOUTUBE_API_KEY = st.secrets["youtube"]["api_key"]
-    OPENAI_API_KEY = st.secrets["openai"]["api_key"]
+    YOUTUBE_API_KEY = st.secrets["youtube"]
+    OPENAI_API_KEY = st.secrets["openai"]
 except KeyError:
     st.error("API keys for YouTube and OpenAI are missing in Streamlit secrets. Please configure them in your secrets.toml or Streamlit Cloud settings.")
     st.stop()
